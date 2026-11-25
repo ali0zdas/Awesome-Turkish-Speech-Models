@@ -1,0 +1,169 @@
+﻿node.exe : - Linting
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Users\HP\AppData\Roaming\npm ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (- Linting:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Ô£û Linting
+
+  README.md:5:1
+  Ô£û    5:1    Unexpected strong introducing a section, expected a heading instead                                     remark-lint:no-emphasis-as-heading
+  Ô£û    8:1    Duplicate link: CONTRIBUTING.md                                                                         remark-lint:double-link
+  Ô£û   31:1    ToC should not contain section "Contributing"                                                           remark-lint:awesome-toc
+  Ô£û   39:9    Unexpected unaligned cell, expected aligned pipes, add 77 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   39:24   Unexpected unaligned cell, expected aligned pipes, add 13 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   39:26   Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   39:48   Unexpected unaligned cell, expected aligned pipes, add 21 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   39:59   Unexpected unaligned cell, expected aligned pipes, add 9 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   39:69   Unexpected unaligned cell, expected aligned pipes, add 5 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   40:8    Unexpected unaligned cell, expected aligned pipes, add 78 spaces (or add - to pad alignment row cells)  remark-lint:table-pipe-alignment
+  Ô£û   40:15   Unexpected unaligned cell, expected aligned pipes, add 21 spaces (or add - to pad alignment row cells)  remark-lint:table-pipe-alignment
+  Ô£û   40:17   Unexpected unaligned cell, expected aligned pipes, add 1 space (or add - to pad alignment row cells)    remark-lint:table-pipe-alignment
+  Ô£û   40:23   Unexpected unaligned cell, expected aligned pipes, add 1 space (or add - to pad alignment row cells)    remark-lint:table-pipe-alignment
+  Ô£û   40:30   Unexpected unaligned cell, expected aligned pipes, add 29 spaces (or add - to pad alignment row cells)  remark-lint:table-pipe-alignment
+  Ô£û   40:37   Unexpected unaligned cell, expected aligned pipes, add 13 spaces (or add - to pad alignment row cells)  remark-lint:table-pipe-alignment
+  Ô£û   40:44   Unexpected unaligned cell, expected aligned pipes, add 8 spaces (or add - to pad alignment row cells)   remark-lint:table-pipe-alignment
+  Ô£û   41:5    Duplicate link: https://huggingface.co/canberkkkkkk/ema-lightning                                       remark-lint:double-link
+  Ô£û   41:74   Unexpected unaligned cell, expected aligned pipes, add 12 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   41:90   Unexpected unaligned cell, expected aligned pipes, add 12 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   41:132  Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   41:149  Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   41:162  Unexpected unaligned cell, expected aligned pipes, add 2 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   42:5    Duplicate link: https://huggingface.co/ozgurguler/ahenk-cep-tr                                          remark-lint:double-link
+  Ô£û   42:67   Unexpected unaligned cell, expected aligned pipes, add 19 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   42:97   Unexpected unaligned cell, expected aligned pipes, add 2 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   42:102  Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   42:132  Unexpected unaligned cell, expected aligned pipes, add 6 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   42:148  Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   42:155  Unexpected unaligned cell, expected aligned pipes, add 8 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   43:5    Duplicate link: https://huggingface.co/Trendyol/Trendyol-TTS                                            remark-lint:double-link
+  Ô£û   43:68   Unexpected unaligned cell, expected aligned pipes, add 18 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   43:78   Unexpected unaligned cell, expected aligned pipes, add 18 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   43:80   Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   43:86   Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   43:118  Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   43:137  Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   43:148  Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   44:5    Duplicate link: https://huggingface.co/Karayakar/Orpheus-TTS-Turkish-PT-5000                            remark-lint:double-link
+  Ô£û   44:101  Unexpected unaligned cell, expected aligned pipes, add 13 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   44:103  Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   44:106  Unexpected unaligned cell, expected aligned pipes, add 2 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   44:141  Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   44:160  Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   44:172  Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   45:5    Duplicate link: https://huggingface.co/marduk-ra/F5-TTS-Turkish                                         remark-lint:double-link
+  Ô£û   45:73   Unexpected unaligned cell, expected aligned pipes, add 13 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   45:89   Unexpected unaligned cell, expected aligned pipes, add 12 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   45:91   Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   45:97   Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   45:131  Unexpected unaligned cell, expected aligned pipes, add 2 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   46:5    Duplicate link: https://huggingface.co/ResembleAI/chatterbox                                            remark-lint:double-link
+  Ô£û   46:66   Unexpected unaligned cell, expected aligned pipes, add 20 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   46:85   Unexpected unaligned cell, expected aligned pipes, add 9 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   46:87   Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   46:93   Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   46:142  Unexpected unaligned cell, expected aligned pipes, add 7 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   46:148  Unexpected unaligned cell, expected aligned pipes, add 9 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   47:5    Duplicate link: https://huggingface.co/coqui/XTTS-v2                                                    remark-lint:double-link
+  Ô£û   47:61   Unexpected unaligned cell, expected aligned pipes, add 25 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   47:78   Unexpected unaligned cell, expected aligned pipes, add 11 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   47:80   Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   47:86   Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   47:119  Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   47:146  Unexpected unaligned cell, expected aligned pipes, add 8 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   48:5    Duplicate link: https://github.com/rhasspy/piper                                                        remark-lint:double-link
+  Ô£û   48:58   Unexpected unaligned cell, expected aligned pipes, add 28 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   48:72   Unexpected unaligned cell, expected aligned pipes, add 14 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   48:115  Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   48:128  Unexpected unaligned cell, expected aligned pipes, add 7 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   48:134  Unexpected unaligned cell, expected aligned pipes, add 9 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   52:9    Unexpected unaligned cell, expected aligned pipes, add 79 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   52:24   Unexpected unaligned cell, expected aligned pipes, add 11 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   52:26   Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   52:33   Unexpected unaligned cell, expected aligned pipes, add 2 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   52:48   Unexpected unaligned cell, expected aligned pipes, add 31 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   52:59   Unexpected unaligned cell, expected aligned pipes, add 9 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   52:69   Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   53:8    Unexpected unaligned cell, expected aligned pipes, add 80 spaces (or add - to pad alignment row cells)  remark-lint:table-pipe-alignment
+  Ô£û   53:15   Unexpected unaligned cell, expected aligned pipes, add 19 spaces (or add - to pad alignment row cells)  remark-lint:table-pipe-alignment
+  Ô£û   53:17   Unexpected unaligned cell, expected aligned pipes, add 3 spaces (or add - to pad alignment row cells)   remark-lint:table-pipe-alignment
+  Ô£û   53:23   Unexpected unaligned cell, expected aligned pipes, add 3 spaces (or add - to pad alignment row cells)   remark-lint:table-pipe-alignment
+  Ô£û   53:30   Unexpected unaligned cell, expected aligned pipes, add 39 spaces (or add - to pad alignment row cells)  remark-lint:table-pipe-alignment
+  Ô£û   53:37   Unexpected unaligned cell, expected aligned pipes, add 13 spaces (or add - to pad alignment row cells)  remark-lint:table-pipe-alignment
+  Ô£û   53:44   Unexpected unaligned cell, expected aligned pipes, add 6 spaces (or add - to pad alignment row cells)   remark-lint:table-pipe-alignment
+  Ô£û   54:5    Duplicate link: https://huggingface.co/erayyapagci/balbal-v2                                            remark-lint:double-link
+  Ô£û   54:65   Unexpected unaligned cell, expected aligned pipes, add 23 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   54:93   Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   54:97   Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   54:139  Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   54:152  Unexpected unaligned cell, expected aligned pipes, add 7 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   54:159  Unexpected unaligned cell, expected aligned pipes, add 6 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   55:5    Duplicate link: https://huggingface.co/atasoglu/seda-v0.2-tiny                                          remark-lint:double-link
+  Ô£û   55:72   Unexpected unaligned cell, expected aligned pipes, add 16 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   55:96   Unexpected unaligned cell, expected aligned pipes, add 2 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   55:98   Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   55:103  Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   55:146  Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   55:161  Unexpected unaligned cell, expected aligned pipes, add 5 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   55:168  Unexpected unaligned cell, expected aligned pipes, add 6 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   56:5    Duplicate link: https://huggingface.co/mihuai/turkish-stt-66m-v2                                        remark-lint:double-link
+  Ô£û   56:73   Unexpected unaligned cell, expected aligned pipes, add 15 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   56:96   Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   56:98   Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   56:102  Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   56:137  Unexpected unaligned cell, expected aligned pipes, add 11 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   56:150  Unexpected unaligned cell, expected aligned pipes, add 7 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   56:157  Unexpected unaligned cell, expected aligned pipes, add 6 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   57:5    Duplicate link: https://huggingface.co/ufakai/ufakzeka-kulak                                            remark-lint:double-link
+  Ô£û   57:70   Unexpected unaligned cell, expected aligned pipes, add 18 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   57:84   Unexpected unaligned cell, expected aligned pipes, add 12 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   57:86   Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   57:92   Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   57:127  Unexpected unaligned cell, expected aligned pipes, add 11 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   57:140  Unexpected unaligned cell, expected aligned pipes, add 7 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   57:147  Unexpected unaligned cell, expected aligned pipes, add 6 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   58:5    Duplicate link: https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general                      remark-lint:double-link
+  Ô£û   58:107  Unexpected unaligned cell, expected aligned pipes, add 7 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   58:109  Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   58:115  Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   58:154  Unexpected unaligned cell, expected aligned pipes, add 7 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   59:5    Duplicate link: https://huggingface.co/turkish-sa-asr/kashgari-large-v1.0                               remark-lint:double-link
+  Ô£û   59:83   Unexpected unaligned cell, expected aligned pipes, add 5 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   59:95   Unexpected unaligned cell, expected aligned pipes, add 14 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   59:97   Unexpected unaligned cell, expected aligned pipes, add 5 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   59:100  Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   59:131  Unexpected unaligned cell, expected aligned pipes, add 15 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   59:150  Unexpected unaligned cell, expected aligned pipes, add 1 space                                          remark-lint:table-pipe-alignment
+  Ô£û   59:161  Unexpected unaligned cell, expected aligned pipes, add 2 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   60:5    Duplicate link: https://huggingface.co/openai/whisper-large-v3-turbo                                    remark-lint:double-link
+  Ô£û   60:86   Unexpected unaligned cell, expected aligned pipes, add 2 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   60:104  Unexpected unaligned cell, expected aligned pipes, add 8 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   60:106  Unexpected unaligned cell, expected aligned pipes, add 4 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   60:111  Unexpected unaligned cell, expected aligned pipes, add 3 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   60:151  Unexpected unaligned cell, expected aligned pipes, add 6 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   60:177  Unexpected unaligned cell, expected aligned pipes, add 7 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   61:5    Duplicate link: https://alphacephei.com/vosk/models                                                     remark-lint:double-link
+  Ô£û   61:56   Unexpected unaligned cell, expected aligned pipes, add 32 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   61:64   Unexpected unaligned cell, expected aligned pipes, add 18 spaces                                        remark-lint:table-pipe-alignment
+  Ô£û   61:137  Unexpected unaligned cell, expected aligned pipes, add 7 spaces                                         remark-lint:table-pipe-alignment
+  Ô£û   69:3    Duplicate link: https://huggingface.co/Trendyol/Trendyol-TTS                                            remark-lint:double-link
+  Ô£û   70:3    Duplicate link: https://huggingface.co/canberkkkkkk/ema-lightning                                       remark-lint:double-link
+  Ô£û   72:3    Duplicate link: https://huggingface.co/Karayakar/Orpheus-TTS-Turkish-PT-5000                            remark-lint:double-link
+  Ô£û   73:3    Duplicate link: https://huggingface.co/marduk-ra/F5-TTS-Turkish                                         remark-lint:double-link
+  Ô£û   80:3    Duplicate link: https://huggingface.co/ResembleAI/chatterbox                                            remark-lint:double-link
+  Ô£û   81:3    Duplicate link: https://huggingface.co/coqui/XTTS-v2                                                    remark-lint:double-link
+  Ô£û   87:3    Duplicate link: https://huggingface.co/ozgurguler/ahenk-cep-tr                                          remark-lint:double-link
+  Ô£û   88:3    Duplicate link: https://github.com/rhasspy/piper                                                        remark-lint:double-link
+  Ô£û   97:3    Duplicate link: https://huggingface.co/erayyapagci/balbal-v2                                            remark-lint:double-link
+  Ô£û  100:3    Duplicate link: https://huggingface.co/atasoglu/seda-v0.2-tiny                                          remark-lint:double-link
+  Ô£û  101:3    Duplicate link: https://huggingface.co/mihuai/turkish-stt-66m-v2                                        remark-lint:double-link
+  Ô£û  102:3    Duplicate link: https://huggingface.co/ufakai/ufakzeka-kulak                                            remark-lint:double-link
+  Ô£û  108:3    Duplicate link: https://huggingface.co/turkmedstt/whisper-large-v3-turkish-general                      remark-lint:double-link
+  Ô£û  110:3    Duplicate link: https://huggingface.co/turkish-sa-asr/kashgari-large-v1.0                               remark-lint:double-link
+  Ô£û  116:3    Duplicate link: https://huggingface.co/openai/whisper-large-v3-turbo                                    remark-lint:double-link
+  Ô£û  120:3    Duplicate link: https://alphacephei.com/vosk/models                                                     remark-lint:double-link
+  Ô£û  131:44   Duplicate link: CONTRIBUTING.md                                                                         remark-lint:double-link
+
+  156 errors
+
