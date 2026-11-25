@@ -3,7 +3,7 @@
 > A curated list of ready-to-use, open-weight **Turkish Text-to-Speech (TTS)** and **Speech-to-Text (STT / ASR)** models.
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome Lint](https://github.com/ali0zdas/Awesome-Turkish-Speech-Models/actions/workflows/lint.yml/badge.svg)](https://github.com/ali0zdas/Awesome-Turkish-Speech-Models/actions/workflows/lint.yml)
 
 This list focuses strictly on pre-trained and fine-tuned models with downloadable weights ready for inference, local deployment, or voice agent pipelines.
@@ -24,41 +24,40 @@ This list focuses strictly on pre-trained and fine-tuned models with downloadabl
   - [Multilingual Foundation Models](#multilingual-foundation-models)
   - [STT Runtimes & Serving Frameworks](#stt-runtimes--serving-frameworks)
 - [Benchmarks & Community Collections](#benchmarks--community-collections)
-- [Contributing](#contributing)
 
 ## Quick Comparison
 
 ### TTS Models Overview
 
-| Model | Type / Base | Params | Key Highlight | Hardware |
-| :--- | :--- | :---: | :--- | :--- |
-| **Clarvia-TTS-Tiny** | Compact Neural | 4.54M | Ultra-tiny footprint for edge synthesis | CPU / Edge |
-| **Ahenk Cep** | EMA Lightning (Distilled) | 8.6M | 34 MB FP32, runs directly in web browsers | CPU / Browser |
-| **Seda-TTS v0.1** | Low-Latency TR TTS | Compact | ~0.1 s time-to-first-audio on 1 CPU thread | CPU / Edge |
-| **Piper TTS (TR)** | VITS / ONNX | ~15–30M | Fast offline synthesis, MIT licensed | CPU / Edge |
-| **Freya-TTS** | Turkish Neural TTS | 0.2B | Clean Python library (`freyatts`) | GPU / Low VRAM |
-| **Anka TTS** | Reference-Guided TTS | 336M | Turkish synthesis with reference voice cloning | GPU (4–6 GB VRAM) |
-| **EMA Lightning** | Flow Matching | Compact | Apache-2.0, very low WER, fast synthesis | GPU / Low VRAM |
-| **Chatterbox** | Multilingual TTS | ~500M | MIT licensed, native TR + ONNX export | GPU / ONNX |
-| **OmniVoice** | Multilingual Cloning | 0.6B | Fast zero-shot multilingual voice cloning | GPU (4–6 GB VRAM) |
-| **Trendyol-TTS** | VoxCPM2 Fine-Tune | 2.38B | High-fidelity Turkish prosody (48 kHz) | GPU (8+ GB VRAM) |
-| **Kizagan-TTS-v1.0** | Large Turkish TTS | 2B | Dedicated Turkish large-scale synthesis | GPU (8+ GB VRAM) |
-| **Orpheus-TTS-TR** | Llama-3.2-3B | 3B | Inline emotion tags (laugh, sigh, gasp) | GPU (8+ GB VRAM) |
+| Model                | Type / Base               | Params  | Key Highlight                                  | Hardware          |
+| :------------------- | :------------------------ | :-----: | :--------------------------------------------- | :---------------- |
+| **Clarvia-TTS-Tiny** | Compact Neural            |  4.54M  | Ultra-tiny footprint for edge synthesis        | CPU / Edge        |
+| **Ahenk Cep**        | EMA Lightning (Distilled) |  8.6M   | 34 MB FP32, runs directly in web browsers      | CPU / Browser     |
+| **Seda-TTS v0.1**    | Low-Latency TR TTS        | Compact | ~0.1 s time-to-first-audio on 1 CPU thread     | CPU / Edge        |
+| **Piper TTS (TR)**   | VITS / ONNX               | ~15–30M | Fast offline synthesis, MIT licensed           | CPU / Edge        |
+| **Freya-TTS**        | Turkish Neural TTS        |  0.2B   | Clean Python library (`freyatts`)              | GPU / Low VRAM    |
+| **Anka TTS**         | Reference-Guided TTS      |  336M   | Turkish synthesis with reference voice cloning | GPU (4–6 GB VRAM) |
+| **EMA Lightning**    | Flow Matching             | Compact | Apache-2.0, very low WER, fast synthesis       | GPU / Low VRAM    |
+| **Chatterbox**       | Multilingual TTS          |  ~500M  | MIT licensed, native TR + ONNX export          | GPU / ONNX        |
+| **OmniVoice**        | Multilingual Cloning      |  0.6B   | Fast zero-shot multilingual voice cloning      | GPU (4–6 GB VRAM) |
+| **Trendyol-TTS**     | VoxCPM2 Fine-Tune         |  2.38B  | High-fidelity Turkish prosody (48 kHz)         | GPU (8+ GB VRAM)  |
+| **Kizagan-TTS-v1.0** | Large Turkish TTS         |   2B    | Dedicated Turkish large-scale synthesis        | GPU (8+ GB VRAM)  |
+| **Orpheus-TTS-TR**   | Llama-3.2-3B              |   3B    | Inline emotion tags (laugh, sigh, gasp)        | GPU (8+ GB VRAM)  |
 
 ### STT Models Overview
 
-| Model | Architecture | Params | Reported Benchmark / Highlight | Hardware |
-| :--- | :--- | :---: | :--- | :--- |
-| **Seda v0.2-Tiny** | Zipformer2 Transducer | 4.5M | Real-time streaming on phones & browsers | CPU / Mobile |
-| **UfakZeka Kulak** | NeMo / GGUF | 31.6M | Trained from scratch for Turkish | CPU / Edge |
-| **Balbal v2 / Manas** | Conformer-CTC + Refiner | 45M | 236x real-time on CPU; ~4.06–5.22% FLEURS WER | CPU / Edge |
-| **Vitopeb STT 66M v2** | Streaming Zipformer | 66M | 68 MB INT8 (`sherpa-onnx`); 6.21% FLEURS WER (Damga) | CPU / Edge |
-| **Qwen3-ASR** | Multilingual ASR | 0.6B / 1.7B | Strong modern multilingual baseline | GPU (4–6 GB VRAM) |
-| **Whisper Large-v3-Turbo** | Encoder-Decoder | 809M | MIT licensed, strong speed-to-accuracy ratio | GPU (4–6 GB VRAM) |
-| **TurkMedSTT General** | Whisper Large-v3 LoRA | 1.55B | Apache-2.0, trained on 140h balanced Turkish | GPU (6–8 GB VRAM) |
-| **BuzzASR Turkish** | Whisper Large-v3 | 1.55B | SOTA open CER on combined FLEURS + Common Voice | GPU (6–8 GB VRAM) |
-| **Kashgari-Large v1.0** | Large ASR (CTranslate2) | 2B | 4.53% FLEURS WER, 5.39% Common Voice 17 WER | GPU (8+ GB VRAM) |
-| **Bitig-Large v1.0** | Large ASR (CTranslate2) | 2B | 4.69% FLEURS WER, evaluated across parliament & calls | GPU (8+ GB VRAM) |
+| Model                      | Architecture            |   Params    | Reported Benchmark / Highlight                        | Hardware          |
+| :------------------------- | :---------------------- | :---------: | :---------------------------------------------------- | :---------------- |
+| **Seda v0.2-Tiny**         | Zipformer2 Transducer   |    4.5M     | Real-time streaming on phones & browsers              | CPU / Mobile      |
+| **UfakZeka Kulak**         | NeMo / GGUF             |    31.6M    | Trained from scratch for Turkish                      | CPU / Edge        |
+| **Balbal v2 / Manas**      | Conformer-CTC + Refiner |     45M     | 236x real-time on CPU; ~4.06–5.22% FLEURS WER         | CPU / Edge        |
+| **Vitopeb STT 66M v2**     | Streaming Zipformer     |     66M     | 68 MB INT8 (`sherpa-onnx`); 6.21% FLEURS WER (Damga)  | CPU / Edge        |
+| **Qwen3-ASR**              | Multilingual ASR        | 0.6B / 1.7B | Strong modern multilingual baseline                   | GPU (4–6 GB VRAM) |
+| **Whisper Large-v3-Turbo** | Encoder-Decoder         |    809M     | MIT licensed, strong speed-to-accuracy ratio          | GPU (4–6 GB VRAM) |
+| **TurkMedSTT General**     | Whisper Large-v3 LoRA   |    1.55B    | Apache-2.0, trained on 140h balanced Turkish          | GPU (6–8 GB VRAM) |
+| **BuzzASR Turkish**        | Whisper Large-v3        |    1.55B    | SOTA open CER on combined FLEURS + Common Voice       | GPU (6–8 GB VRAM) |
+| **Kashgari-Large v1.0**    | Large ASR (CTranslate2) |     2B      | 4.53% FLEURS WER, 5.39% Common Voice 17 WER           | GPU (8+ GB VRAM)  |
+| **Bitig-Large v1.0**       | Large ASR (CTranslate2) |     2B      | 4.69% FLEURS WER, evaluated across parliament & calls | GPU (8+ GB VRAM)  |
 
 ## Text-to-Speech (TTS) Models
 
