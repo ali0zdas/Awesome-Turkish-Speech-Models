@@ -1,0 +1,52 @@
+name: Suggest a Model
+description: Recommend a ready-to-use Turkish TTS or STT (ASR) model to be added to the list.
+title: "[Model]: "
+labels: ["model-suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Model Name
+      placeholder: e.g., Balbal v2 / EMA Lightning
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Model Link (Hugging Face or GitHub)
+      placeholder: https://huggingface.co/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - TTS - Turkish-Native & Fine-Tuned
+        - TTS - Multilingual & Zero-Shot Cloning
+        - TTS - Lightweight & Edge (CPU / ONNX)
+        - STT - Turkish-Native & Streaming
+        - STT - High-Accuracy Turkish Fine-Tunes
+        - STT - Multilingual Foundation Models
+        - Inference Runtime
+    validations:
+      required: true
+
+  - type: input
+    id: specs
+    attributes:
+      label: Architecture, Parameters & License
+      placeholder: e.g., Conformer-CTC, 45M params, Apache-2.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short Description & Notes
+      description: Mention hardware requirements (CPU/VRAM), streaming support, voice cloning, or WER/CER benchmarks if known.
+      placeholder: Describe what makes this model useful for Turkish speech tasks.
+    validations:
+      required: true
